@@ -1,3 +1,8 @@
+alterState(state => {
+   console.log('Passed from the previous job:', JSON.stringify(state.data, null, 2));
+   return state;
+});
+
 createTEI({
    orgUnit: 'TSyzvBiovKh',
    trackedEntityType: 'nEenWmSyUEp',
