@@ -1,11 +1,14 @@
 get(
-  'applicationList', // the endpoint
+  '/applicationList/date/2021-03-07',
   {
-    headers: {"content-type": "application/json"}, // some special parameters?
-    // authentication: {username: "user", password: "pass"}
+    headers: {
+      "content-type": "application/json",
+      "Authorization": state.configuration.password
+    },
   },
   state => { // a callback for viewing or modifying the response before we load to dhis2?
-    console.log('VacinneUPP responded with:', JSON.stringify(state.data, null, 2));
+    console.log('VacinneUPP responded with:', state.data.length, 'items.');
+    //  what to pass to dhis2?
     return state;
   }
 );
