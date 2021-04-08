@@ -9,6 +9,6 @@ get(
   },
   state => { // a callback for viewing or modifying the response before we load to dhis2?
     console.log('VacinneUPP responded with:', state.data, 'items.');
-    return state;
+    return { ...state, data: [], references: [] };
   }
 );
