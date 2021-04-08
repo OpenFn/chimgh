@@ -1,6 +1,6 @@
 get(
-  // '/applicationList/region/central',
-  '/applicationList/date/2021-03-07',
+  '/applicationList/region/central',
+  // '/applicationList/date/2021-03-07',
   {
     headers: {
       "content-type": "application/json",
