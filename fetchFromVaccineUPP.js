@@ -1,5 +1,5 @@
 get(
-  '/applicationList/region/central',
+  '/applicationList/date/2021-03-07',
   // '/applicationList/date/2021-03-07',
   {
     headers: {
