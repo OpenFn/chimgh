@@ -1,5 +1,5 @@
 alterState(state => {
-   console.log('Passed from the previous job:', JSON.stringify(state.data, null, 2));
+   console.log('Data from the previous job:', state.data);
    return state;
 });
 
@@ -9,7 +9,7 @@ createTEI({
    attributes: [
       {
          attribute: 'lZGmxYbs97q',
-         value: valUpsertTEI,
+         value: 'something',
       },
       {
          attribute: 'w75KJ2mc4zz',
