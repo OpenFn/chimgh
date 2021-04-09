@@ -4,7 +4,7 @@ alterState(state => {
 });
 
 each(
-  dataPath('applicants'),
+  '$.applicants',
   state => {
     console.log(state.data.reference)
     return state;
