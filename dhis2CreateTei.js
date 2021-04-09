@@ -1,14 +1,10 @@
-alterState(state => {
-   console.log('Data from the previous job:', state.applicants);
-   return state;
-});
-
 each(
   '$.applicants[*]',
   state => {
-    console.log(state.data.reference)
+    console.log('Applicant found with ref:', state.data.reference);
     return state;
   }
+  // TODO: decide how to create dhis2 tei...
   // createTEI({
   //   orgUnit: 'TSyzvBiovKh',
   //   trackedEntityType: 'nEenWmSyUEp',
