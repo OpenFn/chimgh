@@ -8,7 +8,8 @@ get(
     },
   },
   state => { // a callback for viewing or modifying the response before we load to dhis2?
-    console.log('VacinneUPP responded with:', state.data.data.length, 'items.');
-    return { ...state, data: [], references: [] };
+    const applicants = state.data.data;
+    console.log('VacinneUPP responded with:', applicants.length, 'items.');
+    return { ...state, applicants, data: [], references: [] };
   }
 );
