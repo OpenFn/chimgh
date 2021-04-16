@@ -2,6 +2,7 @@ each(
   '$.applicants[*]',
   state => {
     console.log('Applicant found with ref:', state.data.reference);
+    console.log(state.data);
     return state;
   }
   // TODO: decide how to create dhis2 tei...
