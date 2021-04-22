@@ -10,6 +10,7 @@ get(
   state => { // a callback for viewing or modifying the response before we load to dhis2?
     const applicants = state.data.data;
     console.log('VacinneUPP responded with:', applicants.length, 'items.');
-    return { ...state, applicants, data: [], references: [] };
+    console.log('Returning first ten for testing');
+    return { ...state, applicants: applicants.slice(0, 9), data: [], references: [] };
   }
 );
