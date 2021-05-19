@@ -11,6 +11,6 @@ get(
     const applicants = state.data.data;
     console.log('VacinneUPP responded with:', applicants.length, 'items.');
     console.log('Returning first ten for testing');
-    return { ...state, applicants: applicants.slice(0, 9), data: [], references: [] };
+    return { applicants: applicants.slice(0, 9), data: [], references: [] };
   }
 );
