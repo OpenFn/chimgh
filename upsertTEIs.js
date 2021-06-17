@@ -17,14 +17,14 @@ upsertTEI('lZGmxYbs97q', {
     },
   ],
 });
+
 upsert(
-   'trackedEntityInstances',
-   {
-      attributeId: 'lZGmxYbs97q',
-         attributeValue: state =>
-            state.data.attributes.find(obj => obj.attribute === 'lZGmxYbs97q')
-            .value,
-   },
-   state.data,
-   { ou: 'TSyzvBiovKh' }
+  'trackedEntityInstances',
+  {
+    attributeId: 'lZGmxYbs97q',
+    attributeValue: state =>
+      state.data.attributes.find(obj => obj.attribute === 'lZGmxYbs97q').value,
+  },
+  state.data,
+  { ou: 'TSyzvBiovKh' }
 );

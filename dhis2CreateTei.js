@@ -5,6 +5,7 @@ each(
     console.log('For institution:', state.data.institution);
     return state;
   }
+
   // TODO: decide how to create dhis2 tei...
   // createTEI({
   //   orgUnit: 'TSyzvBiovKh',
