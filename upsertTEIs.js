@@ -1,30 +1,15 @@
-// Your job goes here.
-upsertTEI('lZGmxYbs97q', {
-  orgUnit: 'TSyzvBiovKh',
-  trackedEntityType: 'nEenWmSyUEp',
-  attributes: [
-    {
-      attribute: 'lZGmxYbs97q',
-      value: '77790012',
-    },
-    {
-      attribute: 'w75KJ2mc4zz',
-      value: 'Gigiwe',
-    },
-    {
-      attribute: 'zDhUuAYrxNC',
-      value: 'Mwanza',
-    },
-  ],
-});
-
-upsert(
-  'trackedEntityInstances',
-  {
-    attributeId: 'lZGmxYbs97q',
-    attributeValue: state =>
-      state.data.attributes.find(obj => obj.attribute === 'lZGmxYbs97q').value,
-  },
-  state.data,
-  { ou: 'TSyzvBiovKh' }
+each(
+  dataPath('data[*]'),
+  update('trackedEntityInstances', dataValue('tracked_entity_instance'), {
+    orgUnit: dataValue('organisation_unit_UID'),
+    // trackedEntityType: 'nEenWmSyUEp', // does not exits
+    trackedEntityType: 'MCPQUTHX1Ze', // type "person"
+    attributes: [
+      {
+        attribute: 'TfdH5KvFmMy', // first name
+        value: dataValue('fIrst_Name'),
+      },
+      // ...and more!!!
+    ],
+  })
 );
