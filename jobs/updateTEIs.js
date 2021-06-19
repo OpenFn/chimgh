@@ -1,6 +1,6 @@
 each(
   dataPath("data['*']"),
-  upsert(
+  update(
     'trackedEntityInstances',
     dataValue('tracked_entity_instance'),
     {
@@ -55,7 +55,7 @@ each(
           program: dataValue('program_instance'),
           enrollmentDate: dataValue('enrollment_date'),
           incidentDate: dataValue('incident_date'),
-          events: [
+          events: ['events', dataValue('event'),
             {
               program: dataValue('program_instance'),
               orgUnit: dataValue('organisation_unit_UID'),
