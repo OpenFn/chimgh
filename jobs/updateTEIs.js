@@ -52,12 +52,13 @@ each(
       enrollments: [
         {
           orgUnit: dataValue('organisation_unit_UID'),
-          program: dataValue('program_instance'),
+          program: dataValue('program'),
           enrollmentDate: dataValue('enrollment_date'),
           incidentDate: dataValue('incident_date'),
           events: [
             {
-              program: dataValue('program_instance'),
+              program: dataValue('program'),
+              event: dataValue('event'),
               orgUnit: dataValue('organisation_unit_UID'),
               eventDate: dataValue('event_date'),
               // status: COMPLETED,
