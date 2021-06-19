@@ -95,7 +95,7 @@ each(
                 },
                 {
                   dataElement: 'PamkjF1JUnE',
-                  value: dataValue('cOVAX__Dose_Expiry_Date'),
+                  value: dataValue('data.0.cOVAX__Total_doses')
                 },
               ],
             },
