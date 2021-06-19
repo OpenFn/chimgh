@@ -1,6 +1,6 @@
 each(
   dataPath("data['*']"),
-  upsert(
+  update(
     'trackedEntityInstances',
     dataValue('tracked_entity_instance'),
     {
