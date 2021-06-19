@@ -55,7 +55,7 @@ each(
           program: dataValue('program_instance'),
           enrollmentDate: dataValue('enrollment_date'),
           incidentDate: dataValue('incident_date'),
-          events: ['events', dataValue('event'),
+          events: [
             {
               program: dataValue('program_instance'),
               orgUnit: dataValue('organisation_unit_UID'),
