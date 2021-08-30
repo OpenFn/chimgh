@@ -1,6 +1,6 @@
 each(
   dataPath("data['*']"),
-  update(
+  updateEnrollments(
     'trackedEntityInstances',
     dataValue('tracked_entity_instance'),
     {
