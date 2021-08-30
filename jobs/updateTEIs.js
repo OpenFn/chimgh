@@ -1,6 +1,6 @@
 each(
   dataPath("data['*']"),
-  update(
+  upsertTEI(
     'trackedEntityInstances',
     dataValue('tracked_entity_instance'),
     {
