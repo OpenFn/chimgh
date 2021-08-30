@@ -1,6 +1,6 @@
 each(
   dataPath("data['*']"),
-  updateEnrollments(
+  createTEI(
     'trackedEntityInstances',
     dataValue('tracked_entity_instance'),
     {
