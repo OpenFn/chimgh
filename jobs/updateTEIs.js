@@ -51,7 +51,7 @@ each(
       ],
       enrollments: [
         {
-          orgUnit: dataValue('organisation_unit_UID'),
+          orgUnit: dataValue('organisation_unit_ID'),
           program: dataValue('program'),
           enrollmentDate: dataValue('enrollment_date'),
           incidentDate: dataValue('incident_date'),
@@ -59,7 +59,7 @@ each(
             {
               program: dataValue('program'),
               event: dataValue('event'),
-              orgUnit: dataValue('organisation_unit_UID'),
+              orgUnit: dataValue('organisation_unit_ID'),
               eventDate: dataValue('event_date'),
               // status: COMPLETED,
               // storedBy: admin,
