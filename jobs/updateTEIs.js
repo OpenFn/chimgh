@@ -4,7 +4,7 @@ each(
     'trackedEntityInstances',
     dataValue('tracked_entity_instance'),
     {
-      orgUnit: dataValue('organisation_unit_UID'),
+      orgUnit: dataValue('organisation_unit_ID'),
       trackedEntityType: dataValue('tei_Type'),
       attributes: [
         { attribute: 'TfdH5KvFmMy', value: dataValue('fIrst_Name') },
