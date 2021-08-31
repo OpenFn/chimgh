@@ -69,10 +69,6 @@ each(
                   value: dataValue('cOVAX__Vaccine_Type'),
                 },
                 {
-                  dataElement: 'FFWcps4MfuH',
-                  value: dataValue('cOVAX_Suggested_date_for_next_dose'),
-                },
-                {
                   dataElement: 'Yp1F4txx8tm',
                   value: dataValue('c0VAXBatchNumber'),
                 },
@@ -83,18 +79,6 @@ each(
                 {
                   dataElement: 'LUIsbsm3okG',
                   value: dataValue('cOVAX__Dose_Number'),
-                },
-                {
-                  dataElement: 'm9PgIDAJGlF',
-                  value: dataValue('cOVAX__AEFIs_present'),
-                },
-                {
-                  dataElement: 'YTQulAldGOs',
-                  value: dataValue('cOVAX__Dose_Expiry_Date'),
-                },
-                {
-                  dataElement: 'PamkjF1JUnE',
-                  value: dataValue('data.0.cOVAX__Total_doses')
                 },
               ],
             },
