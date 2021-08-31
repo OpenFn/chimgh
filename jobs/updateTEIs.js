@@ -63,7 +63,6 @@ each(
               eventDate: dataValue('event_date'),
               // status: COMPLETED,
               // storedBy: admin,
-              programStage: 'a1jCssI2LkW',
               dataValues: [
                 {
                   dataElement: 'bbnyNYD1wgS',
