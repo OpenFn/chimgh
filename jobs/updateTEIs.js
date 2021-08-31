@@ -1,6 +1,6 @@
 each(
   dataPath("data['*']"),
-  createTEI(
+  upsert(
     'trackedEntityInstances',
     dataValue('tracked_entity_instance'),
     {
@@ -63,7 +63,7 @@ each(
               eventDate: dataValue('event_date'),
               // status: COMPLETED,
               // storedBy: admin,
-              //programStage: dataValue('program_stage'),
+              programStage: 'a1jCssI2LkW',
               dataValues: [
                 {
                   dataElement: 'bbnyNYD1wgS',
