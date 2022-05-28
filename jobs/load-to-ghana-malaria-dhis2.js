@@ -1,5 +1,5 @@
 each(
-  dataPath('[*]'),
+  '$.data[*]',
   create('dataValueSets', {
     dataSet: 'DtF8c3KI77R',
     completeDate: state => {
