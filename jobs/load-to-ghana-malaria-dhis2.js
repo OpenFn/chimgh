@@ -8,7 +8,7 @@ fn(state => {
 
     return {
       dataSet: 'DtF8c3KI77R',
-      completeDate: lastDayOfMonth.toISOString(),
+      completeDate: lastDayOfMonth.toISOString().substring(0, 10),
       period: r.period,
       orgUnit: r.fac_metadata,
       dataValues: [
