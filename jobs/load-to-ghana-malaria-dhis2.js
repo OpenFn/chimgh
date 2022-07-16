@@ -12,29 +12,50 @@ fn(state => {
       period: r.period,
       orgUnit: r.orgUnit,
       dataValues: [
-        dv('boG7vI44cg6', r.number_of_children_not_given_smc_medicine_12_to_59_months_male),
-        dv('DgofSPFzUIi', r.number_of_adrs_reported_by_volunteers_female),
-        dv('o3Muv5wiR51', r.twelve_to_59_months_male),
-        dv('s5D3zpoFFCb', r.number_of_children_given_smc_medicine_3_to_11_months_female),
-        dv('zZQTMXDfCxC', r.TOTAL_NUMBER_OF_BLISTERS_RECEIVED_3_to_11_MOTNHS),
-        dv('XaOfCVgktZF', r.number_of_children_given_smc_medicine_3_to_11_months_male),
-        dv('H3wlEVccmQY', r.number_of_adrs_reported_by_volunteers_male),
-        dv('SJhM0dnoH5L', r.number_of_children_not_given_smc_medicine_12_to_59_months_female),
-        dv('sHQTg4kDQU2', r.NUMBER_OF_BLISTERS_WASTED_CHILDREN_12_TO_59_MONTHS),
-        dv('Uf7gdUYC1Ya', r.number_of_children_not_given_smc_medicine_3_to_11_months_female),
-        dv('fUjDn631Ej8', r.TOTAL_NUMBER_OF_BLISTERS_RECEIVED_12_to_59_MOTNHS),
-        dv('SJXPwlNh73N', r.NUMBER_OF_BLISTERS_WASTED_CHILDREN_3_TO_11_MONTHS),
-        dv('nhWsdEsFVgG', r.number_of_blisters_given_out_12_to_59_months),
-        dv('PYkrk0rd4kP', r.twelve_to_59_months_female),
-        dv('mKjXJHSqaCi', r.number_of_children_not_given_smc_medicine_3_to_11_months_male),
-        dv('mbw3kTNJcyr', r.three_to_11_months_female),
+        //number_of_children_not_given_smc_medicine_12_to_59_months_male
+        dv('boG7vI44cg6', r.boG7vI44cg6),
+        //number_of_adrs_reported_by_volunteers_female
+        dv('DgofSPFzUIi', r.DgofSPFzUIi),
+        //twelve_to_59_months_male
+        dv('o3Muv5wiR51', r.o3Muv5wiR51),
+        //number_of_children_given_smc_medicine_3_to_11_months_female
+        dv('s5D3zpoFFCb', r.s5D3zpoFFCb),
+        //TOTAL_NUMBER_OF_BLISTERS_RECEIVED_3_to_11_MOTNHS
+        dv('zZQTMXDfCxC', r.zZQTMXDfCxC),
+        //number_of_children_given_smc_medicine_3_to_11_months_male
+        dv('XaOfCVgktZF', r.XaOfCVgktZF),
+        //number_of_adrs_reported_by_volunteers_male
+        dv('H3wlEVccmQY', r.H3wlEVccmQY),
+        //number_of_children_not_given_smc_medicine_12_to_59_months_female
+        dv('SJhM0dnoH5L', r.SJhM0dnoH5L),
+        //NUMBER_OF_BLISTERS_WASTED_CHILDREN_12_TO_59_MONTHS
+        dv('sHQTg4kDQU2', r.sHQTg4kDQU2),
+        //number_of_children_not_given_smc_medicine_3_to_11_months_female
+        dv('Uf7gdUYC1Ya', r.Uf7gdUYC1Ya),
+        //TOTAL_NUMBER_OF_BLISTERS_RECEIVED_12_to_59_MOTNHS
+        dv('fUjDn631Ej8', r.fUjDn631Ej8),
+        //NUMBER_OF_BLISTERS_WASTED_CHILDREN_3_TO_11_MONTHS
+        dv('SJXPwlNh73N', r.SJXPwlNh73N),
+        //number_of_blisters_given_out_12_to_59_months
+        dv('nhWsdEsFVgG', r.nhWsdEsFVgG),
+        //twelve_to_59_months_female
+        dv('PYkrk0rd4kP', r.PYkrk0rd4kP),
+        //number_of_children_not_given_smc_medicine_3_to_11_months_male
+        dv('mKjXJHSqaCi', r.mKjXJHSqaCi),
+        //three_to_11_months_female
+        dv('mbw3kTNJcyr', r.mbw3kTNJcyr),
         // dv('icGSlG7m8v2', r.XXX, // no apparent source data for "SMC_Target Pop 3-59 months"
-        dv('XDd2Z4rkCxj', r.number_of_children_given_smc_medicine_12_to_59_months_male),
+        //number_of_children_given_smc_medicine_12_to_59_months_male
+        dv('XDd2Z4rkCxj', r.XDd2Z4rkCxj),
         // dv('cqvjZK88xhW', r.XXX), // no apparent source data for "SMC_Total Population"
-        dv('dCYR9d2eAJd', r.number_of_children_given_smc_medicine_12_to_59_months_female),
-        dv('ojuXUxUCvZk', r.NUMBER_OF_BLISTERS_GIVEN_TO_CHILDREN_3_TO_11_MONTHS),
-        dv('dqeWPFiJZtY', r.number_of_households_visited),
-        dv('ctEkqKT0uEA', r.three_to_11_months_male),
+        //number_of_children_given_smc_medicine_12_to_59_months_female
+        dv('dCYR9d2eAJd', r.dCYR9d2eAJd),
+        //NUMBER_OF_BLISTERS_GIVEN_TO_CHILDREN_3_TO_11_MONTHS
+        dv('ojuXUxUCvZk', r.ojuXUxUCvZk),
+        //number_of_households_visited
+        dv('dqeWPFiJZtY', r.dqeWPFiJZtY),
+       // three_to_11_months_male
+        dv('ctEkqKT0uEA', r.ctEkqKT0uEA),
       ],
     };
   });
