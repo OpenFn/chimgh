@@ -10,7 +10,7 @@ fn(state => {
       dataSet: 'DtF8c3KI77R',
       completeDate: lastDayOfMonth.toISOString().substring(0, 10),
       period: r.period,
-      orgUnit: r.fac_metadata,
+      orgUnit: r.orgUnit,
       dataValues: [
         dv('boG7vI44cg6', r.number_of_children_not_given_smc_medicine_12_to_59_months_male),
         dv('DgofSPFzUIi', r.number_of_adrs_reported_by_volunteers_female),
