@@ -47,7 +47,8 @@ fn(state => {
         // dv('icGSlG7m8v2', r.XXX, // no apparent source data for "SMC_Target Pop 3-59 months"
         //number_of_children_given_smc_medicine_12_to_59_months_male
         dv('XDd2Z4rkCxj', r.XDd2Z4rkCxj),
-        // dv('cqvjZK88xhW', r.XXX), // no apparent source data for "SMC_Total Population"
+        // no apparent source data for "SMC_Total Population"
+        dv('cqvjZK88xhW', r.cqvjZK88xhW),
         //number_of_children_given_smc_medicine_12_to_59_months_female
         dv('dCYR9d2eAJd', r.dCYR9d2eAJd),
         //NUMBER_OF_BLISTERS_GIVEN_TO_CHILDREN_3_TO_11_MONTHS
@@ -56,6 +57,16 @@ fn(state => {
         dv('dqeWPFiJZtY', r.dqeWPFiJZtY),
        // three_to_11_months_male
         dv('ctEkqKT0uEA', r.ctEkqKT0uEA),
+       //Number of Children given SMC Medicine 60-62 months-Male
+       dv('xXVixJFcbKU', r.xXVixJFcbKU),
+       //Number of Children given SMC Medicine 60-62 months-Female
+       dv('KwM9dP0jEZ8', r.KwM9dP0jEZ8),
+       //Number of Children Not given SMC Medicine 3-11 months-Male
+       dv('mKjXJHSqaCi', r.mKjXJHSqaCi),
+       //Number of Children Not given SMC Medicine 60-62 months-Male
+       dv('X4G2JXNwqeE', r.X4G2JXNwqeE),
+       //Number of Children Not given SMC Medicine 60-62 months-female
+       dv('KC92yuvtb55', r.KC92yuvtb55),
       ],
     };
   });
