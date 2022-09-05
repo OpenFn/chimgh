@@ -1,7 +1,2 @@
 //get('https://www.sicappgh.org/api/get-dhis-data');
-get('dataValueSets', {
-  dataSet: 'Ps3ezv0ZaJL',
-  orgUnit: 'Q3prrFtk8WJ',
-  period: '202207',
-  fields: '*',
-});
+get('https://dhims.chimgh.org/dhims/api/dataSetReport/custom?filter=&ds=Ps3ezv0ZaJL&pe=202207&ou=Q3prrFtk8WJ');
