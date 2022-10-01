@@ -1,2 +1,2 @@
 //get('https://www.sicappgh.org/api/get-dhis-data');
-get('https://dhims.chimgh.org/dhims/api/dataSetReport/custom?filter=&ds=Ps3ezv0ZaJL&pe=202207&ou=Q3prrFtk8WJ');
+get('https://hiv.chimgh.org/staging/api/37/analytics?dimension=dx:rXjry7KSS2w;DPVLd5XbZa0;lvp0PxmwS8x;sNkarF40q5z;rZGL42yr3he;JXAFchCZgQM;qoV7jKpRKo3;K0NAm2GixTj;VXVWGY8Wicq;vJ67qhMNQsu;JBl8M8HlL4M;ofPq64xxavq;RVRHPN8mPdO;z2pk9vW4tXa;Fh8wrloj1wT;sPJWCbSZugW;dXJHa7wpZGm;tNtJLWLV1O7;XMbDEaOg512;ZXAE7rZzjTq;Kovtpqha4Tb;qSs7RQBVDrN;ZG1G0OhULES;Ouyv5QFkiBh,pe:202207&filter=ou:E4h5WBOg71F');
